@@ -1,0 +1,46 @@
+### Ignore all dot files ###
+.*
+
+### Scala ###
+*.sc
+
+### Play! ###
+project/project
+project/target
+target
+tmp
+logs
+
+
+### Git ###
+!.gitignore
+*.orig
+.git/
+
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+### Eclipse ###
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+/bin
+lib/
